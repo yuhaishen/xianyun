@@ -1,0 +1,89 @@
+@charset "utf-8";
+body{
+    background-color: #000;
+    color: white;
+    padding-top: 30px;
+}
+#main{
+    width: 1000px;
+    margin: 0 auto;
+    /*visibility: hidden;*/
+}
+#main>h1{
+    text-align: center;
+    /*margin-top: 30px;*/
+    margin-bottom:10px;
+}
+#main>p{
+    text-align: right;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+ol{
+      width: 100%;
+}
+body:after{
+    content: "";
+    display: block;
+    visibility: hidden;
+    height: 0;
+    clear: both;
+
+}
+li{
+    float: left;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    width: 17%;
+    height:170px;
+    /*border: 1px solid #000;*/
+    text-align: center;
+    background-color: #000;
+}
+li>p{
+    text-align: center;
+    margin-top: 10px;
+    height: 20px;
+    }
+li>div{
+    width:120px;
+       margin:20px auto;
+}
+li>div>table{
+    width: 120px;
+    line-height: 25px;
+    text-align: right;
+
+}
+li>div>table>tbody{
+    border-bottom: 1px solid deepskyblue;
+}
+.kuang{
+    width: 40%;
+    height: 16px;
+    margin-left: 20px;
+    border: 1px solid #4ac3ff;
+    opacity: 0;
+    font-size: 12px;
+    color:black;
+    padding: 0;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 16px;
+}
+td{
+    padding: 2px;
+    }
+span{
+    font-size: 22px;
+}
+span:nth-child(2){
+    color: transparent;
+}
+li:hover  td>div{
+    color:green;
+}
+
+li:hover span:nth-child(2){
+    color:green;
+}
